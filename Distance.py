@@ -2,8 +2,8 @@ import serial
 import pygame
 import time
 
-SERIAL_PORT = "/dev/cu.usbmodem101"
-BAUD = 9600
+SERIAL_PORT = "/dev/cu.usbmodem101" #check your board serial post code , from the IDE 
+BAUD = 9600 
 
 # Audio files (WAV or MP3)
 AUDIO_1 = "audio_1.mp3"
