@@ -6,14 +6,14 @@ SERIAL_PORT = "/dev/cu.usbmodem101"
 BAUD = 9600
 
 # Audio files (WAV or MP3)
-AUDIO_1 = "kapda.mp3"
-AUDIO_2 = "alert.mp3"
-AUDIO_3 = "alert.mp3"
+AUDIO_1 = "audio_1.mp3"
+AUDIO_2 = "audio_2.mp3"
+AUDIO_3 = "audio_3.mp3"
 
 # Timing controls (seconds)
 DELAY_AUDIO_2 = 1
-DELAY_AUDIO_3 = 3.5
-COOLDOWN = 7
+DELAY_AUDIO_3 = 2
+COOLDOWN = 5
 
 
 pygame.mixer.init()
