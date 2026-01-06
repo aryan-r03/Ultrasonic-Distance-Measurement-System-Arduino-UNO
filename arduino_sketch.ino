@@ -1,3 +1,10 @@
+/* 
+> For custom audio output 
+> Run with ' Distance_custom_audio.py '
+*/
+
+
+
 #define TRIG 9 // TRIG pin of MQ2 -> D9 of arduino 
 #define ECHO 10 // ECHO pin of MQ2 -> D10 of arduino 
 #define LED 3 // LED long let -> D3 of arduino 
