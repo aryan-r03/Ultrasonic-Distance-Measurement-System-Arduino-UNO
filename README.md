@@ -1129,6 +1129,6 @@ Special thanks to:
 
 ---
 
-**© 2025 Aryan Ranjan | Open Source | MIT License**
+**© 2025 Aryan Ranjan | Open Source | IoT & Embedded Systems **
 
 </div>
