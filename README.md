@@ -258,14 +258,14 @@ PLAY_AUDIO  ← Trigger sent when object in range
         ┌─────────────────────────────┐
         │      Arduino UNO            │
         │                             │
-        │  5V  ──────────────────────>│ VCC (HC-SR04)
-        │  GND ──────────────────────>│ GND (HC-SR04)
-        │  D9  ──────────────────────>│ TRIG
-        │  D10 <──────────────────────│ ECHO
+                      │  5V  ──────────────────────>│ VCC (HC-SR04)
+                      │  GND ──────────────────────>│ GND (HC-SR04)
+             │  D9  ──────────────────────>│ TRIG
+             │  D10 <──────────────────────│ ECHO
         │                             │
-        │  D3  ───[220Ω]───>│+LED−│──>│ GND
+            │  D3  ───[220Ω]───>│+LED−│──>│ GND
         │                             │
-        │  USB <──────────────────────│ Computer
+                 │  USB <──────────────────────│ Computer
         └─────────────────────────────┘
 ```
 
@@ -1057,14 +1057,15 @@ Special thanks to:
 <table>
   <tr>
     <td align="center" width="33%">
+      <a href="https://github.com/aryan-r03/ultrasonic-distance-arduino/issues"></a>
       <img src="https://img.icons8.com/color/96/000000/github.png" width="60" height="60" alt="GitHub"/>
       <br><b>Open an Issue</b>
-      <br><a href="https://github.com/aryan-r03/ultrasonic-distance-arduino/issues">GitHub Issues</a>
+      <br><b>GitHub Issues</b>
     </td>
     <td align="center" width="33%">
+      <a href="mailto:aryanr.ranjan@gmail.com">
       <img src="https://img.icons8.com/color/96/000000/email.png" width="60" height="60" alt="Email"/>
       <br><b>Email</b>
-      <br><a href="mailto:aryanr.ranjan@gmail.com">aryanr.ranjan@gmail.com</a>
     </td>
     <td align="center" width="33%">
       <img src="https://img.icons8.com/color/96/000000/document.png" width="60" height="60" alt="Docs"/>
