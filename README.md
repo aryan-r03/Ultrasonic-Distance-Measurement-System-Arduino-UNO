@@ -111,15 +111,15 @@ Designed to be **modular, deterministic, and interview-ready** — optimized for
 ```
 ┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
 │   HC-SR04       │  GPIO   │   Arduino UNO    │  UART   │  Python Host    │
-│  Ultrasonic     │ ──────> │  Microcontroller │ ──────> │   Application   │
+ │  Ultrasonic     │ ──────> │  Microcontroller │ ──────> │   Application   │ 
 │    Sensor       │         │                  │         │   (GUI/Audio)   │
 └─────────────────┘         └──────────────────┘         └─────────────────┘
-                                      │
-                                      ▼
-                              ┌──────────────┐
-                              │  LED Visual  │
-                              │   Feedback   │
-                              └──────────────┘
+│
+▼
+┌──────────────┐
+│  LED Visual  │
+│   Feedback   │
+└──────────────┘
 ```
 
 ### Expected Output
