@@ -66,7 +66,7 @@
         <br>Arduino + Python integration
       </td>
       <td align="center" width="33%">
-        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087927.png" width="80" height="80" alt="Professional"/>
+        <img src="https://img.icons8.com/office/100/Production-machine.png" width="80" height="80" alt="Professional"/>
         <br><b>Production Ready</b>
         <br>Clean, modular, documented
       </td>
